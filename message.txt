@@ -1,2 +1,2 @@
 Author: Dipti Ranjan Dash
-Project: API Automation
+Project: API Automation/Automation Project
