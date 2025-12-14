@@ -30,7 +30,7 @@ public class All_ApisRequest extends Basetest_Extent
 		//step2 GET REQUEST Template
 		Response response_output=given().header("x-api-key","reqres_fcc9716683f34df488a5273f619e3d01")
 				.when().get("/api/users/2")
-				.then().statusCode(200).extract().response();
+				.then().statusCode(210).extract().response();
 		
 		//response_output.then().body("first_name", equalTo("Janet"));
 		//response_output.then().body("last_name", equalTo("Weaver"));
