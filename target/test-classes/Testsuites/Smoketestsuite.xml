@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RestAssured_API_Testing Smoke Test Suite">
+  <listeners>
+    <listener class-name="utlis.RetryListener"/>
+  </listeners>
+  <test name="API tests">
+    <classes>
+      <class name="apitesting_tests.All_ApisRequest"/>
+    </classes>
+  </test>
+</suite>

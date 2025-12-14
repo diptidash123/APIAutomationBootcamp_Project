@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Entire API Test Cases">
+  <test name="api test cases">
+    <classes>
+      <class name="apitesting_tests.SingleUser_api"/>
+      <class name="apitesting_tests.GetlistUsers_api"/>
+      <class name="apitesting_tests.MutipleUsers_api"/>
+      <class name="apitesting_tests.ListOfUsers_api"/>
+      <class name="apitesting_tests.Fetchheaders_response_api"/>
+      <class name="apitesting_tests.Basicauthentication_api_DDT"/>
+      <class name="apitesting_tests.HeaderValidation_api"/>
+      <class name="apitesting_tests.softHardAssert_validation"/>
+      <class name="apitesting_tests.SingleUserPage_api"/>
+      <class name="apitesting_tests.combinedTestDDT_JsonPropertiesFile_api"/>
+      <class name="apitesting_tests.DeleteUser_api"/>
+      <class name="apitesting_tests.singleRequest_propertiesFileReadDDT_api"/>
+      <class name="apitesting_tests.Authentication_apis"/>
+      <class name="apitesting_tests.All_ApisRequest"/>
+      <class name="apitesting_tests.CookiesUser_api"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

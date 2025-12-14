@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Entire API Test Cases]">
+  <test thread-count="5" name="api test cases(failed)">
+    <classes>
+      <class name="apitesting_tests.ListOfUsers_api">
+        <methods>
+          <include name="listofusers_api_pathParameter"/>
+          <include name="listofusers_api_formParameter"/>
+        </methods>
+      </class> <!-- apitesting_tests.ListOfUsers_api -->
+      <class name="apitesting_tests.CookiesUser_api">
+        <methods>
+          <include name="getsingleCookie_api"/>
+        </methods>
+      </class> <!-- apitesting_tests.CookiesUser_api -->
+      <class name="apitesting_tests.Basicauthentication_api_DDT">
+        <methods>
+          <include name="BasicAuthentication_api"/>
+        </methods>
+      </class> <!-- apitesting_tests.Basicauthentication_api_DDT -->
+      <class name="apitesting_tests.GetlistUsers_api">
+        <methods>
+          <include name="GetListOfUser_api"/>
+        </methods>
+      </class> <!-- apitesting_tests.GetlistUsers_api -->
+      <class name="apitesting_tests.SingleUserPage_api">
+        <methods>
+          <include name="SingleUser_page_api"/>
+        </methods>
+      </class> <!-- apitesting_tests.SingleUserPage_api -->
+    </classes>
+  </test> <!-- api test cases(failed) -->
+</suite> <!-- Failed suite [Entire API Test Cases] -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RestAssured_API_Testing Regression Test Suite" parallel="classes" thread-count="2">
+ <test name="test apis on chrome browser">
+      <classes>
+        <class name="apitesting_tests.All_ApisRequest"/> 
+      </classes>
+ </test>
+ <test name="test apis on firebox browser">
+      <classes>
+        <class name="apitesting_tests.Authentication_apis"/>
+      </classes>
+ </test>
+</suite> 

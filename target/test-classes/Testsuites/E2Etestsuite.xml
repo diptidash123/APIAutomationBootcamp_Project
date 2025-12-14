@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RestAssured_API_Testing Groups Test cases">
+  <test name="Test Cases API">
+    <groups>
+      <run>
+       <!-- Execute only those test case which are grouped as Regressiontestsuite and Smoketestsuite-->
+        <include name="Regressiontestsuite"/>
+        <include name="Smoketestsuite"/>
+      </run>
+    </groups>
+    
+    <!--  test cases -->
+    <classes>
+      <class name="apitesting_tests.All_ApisRequest"/>
+    </classes>
+  </test> 
+</suite> 
