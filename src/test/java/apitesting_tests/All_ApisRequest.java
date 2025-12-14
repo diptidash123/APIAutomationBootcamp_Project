@@ -18,6 +18,7 @@ public class All_ApisRequest extends Basetest_Extent
 {
     //This test script is about GET/POST/PUT/PATCH/DELETE APIS 
 	@Test(description = "GET REQUEST API",groups = "Regressiontestsuite")
+	//This statement was written for checking the code status whether working fine or not by using GIT status
 	public void getRequest_api_endpoint()
 	{
 		ExtentReport.extentlog = 
