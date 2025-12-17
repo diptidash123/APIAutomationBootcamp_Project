@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-16T21:35:34 IST" name="RestAssured_API_Testing Groups Test cases" finished-at="2025-12-16T21:35:39 IST" duration-ms="4884">
+    <groups>
+      <group name="Regressiontestsuite">
+        <method signature="All_ApisRequest.getRequest_api_endpoint()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" name="getRequest_api_endpoint" class="apitesting_tests.All_ApisRequest"/>
+        <method signature="All_ApisRequest.postRequest_api_endpoint()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" name="postRequest_api_endpoint" class="apitesting_tests.All_ApisRequest"/>
+        <method signature="All_ApisRequest.postRequest_api_endpoint_Pojo()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" name="postRequest_api_endpoint_Pojo" class="apitesting_tests.All_ApisRequest"/>
+        <method signature="All_ApisRequest.postRequest_api_endpoint_PojoJsonArray()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" name="postRequest_api_endpoint_PojoJsonArray" class="apitesting_tests.All_ApisRequest"/>
+        <method signature="All_ApisRequest.putRequest_api_endpoint()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" name="putRequest_api_endpoint" class="apitesting_tests.All_ApisRequest"/>
+      </group> <!-- Regressiontestsuite -->
+      <group name="Smoketestsuite">
+        <method signature="All_ApisRequest.patchRequest_api_endpoint()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" name="patchRequest_api_endpoint" class="apitesting_tests.All_ApisRequest"/>
+        <method signature="All_ApisRequest.postRequest_api_endpoint_Map()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" name="postRequest_api_endpoint_Map" class="apitesting_tests.All_ApisRequest"/>
+        <method signature="All_ApisRequest.putRequest_api_endpoint()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" name="putRequest_api_endpoint" class="apitesting_tests.All_ApisRequest"/>
+      </group> <!-- Smoketestsuite -->
+    </groups>
+    <test started-at="2025-12-16T21:35:34 IST" name="Test Cases API" finished-at="2025-12-16T21:35:39 IST" duration-ms="4884">
+      <class name="apitesting_tests.All_ApisRequest">
+        <test-method is-config="true" signature="config()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:34 IST" name="config" finished-at="2025-12-16T21:35:34 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:34 IST" name="startTest" finished-at="2025-12-16T21:35:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apitesting_tests.All_ApisRequest.getRequest_api_endpoint()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="getRequest_api_endpoint()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:34 IST" name="getRequest_api_endpoint" description="GET REQUEST API" finished-at="2025-12-16T21:35:35 IST" duration-ms="903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequest_api_endpoint -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:35 IST" name="getResult" finished-at="2025-12-16T21:35:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getRequest_api_endpoint status=SUCCESS method=All_ApisRequest.getRequest_api_endpoint()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="patchRequest_api_endpoint()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:35 IST" name="patchRequest_api_endpoint" description="PATCH REQUEST API" finished-at="2025-12-16T21:35:36 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchRequest_api_endpoint -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:35 IST" name="startTest" finished-at="2025-12-16T21:35:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apitesting_tests.All_ApisRequest.patchRequest_api_endpoint()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:36 IST" name="getResult" finished-at="2025-12-16T21:35:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=patchRequest_api_endpoint status=SUCCESS method=All_ApisRequest.patchRequest_api_endpoint()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="postRequest_api_endpoint()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:36 IST" name="postRequest_api_endpoint" description="POST REQUEST API Using String (Raw JSON body)" finished-at="2025-12-16T21:35:37 IST" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest_api_endpoint -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:36 IST" name="startTest" finished-at="2025-12-16T21:35:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apitesting_tests.All_ApisRequest.postRequest_api_endpoint()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:37 IST" name="getResult" finished-at="2025-12-16T21:35:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postRequest_api_endpoint status=SUCCESS method=All_ApisRequest.postRequest_api_endpoint()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="postRequest_api_endpoint_Map()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:37 IST" name="postRequest_api_endpoint_Map" description="POST REQUEST API Using HashMap Most common in real projects" finished-at="2025-12-16T21:35:37 IST" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest_api_endpoint_Map -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:37 IST" name="startTest" finished-at="2025-12-16T21:35:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apitesting_tests.All_ApisRequest.postRequest_api_endpoint_Map()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:37 IST" name="getResult" finished-at="2025-12-16T21:35:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postRequest_api_endpoint_Map status=SUCCESS method=All_ApisRequest.postRequest_api_endpoint_Map()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:37 IST" name="startTest" finished-at="2025-12-16T21:35:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apitesting_tests.All_ApisRequest.postRequest_api_endpoint_Pojo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="postRequest_api_endpoint_Pojo()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:37 IST" name="postRequest_api_endpoint_Pojo" description="POST REQUEST API Using Pojo(simple JSON)" finished-at="2025-12-16T21:35:38 IST" duration-ms="606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest_api_endpoint_Pojo -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:38 IST" name="getResult" finished-at="2025-12-16T21:35:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postRequest_api_endpoint_Pojo status=SUCCESS method=All_ApisRequest.postRequest_api_endpoint_Pojo()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:38 IST" name="startTest" finished-at="2025-12-16T21:35:38 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apitesting_tests.All_ApisRequest.postRequest_api_endpoint_PojoJsonArray()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="postRequest_api_endpoint_PojoJsonArray()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:38 IST" name="postRequest_api_endpoint_PojoJsonArray" description="POST REQUEST API Using Pojo(JSONARRAY)" finished-at="2025-12-16T21:35:39 IST" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest_api_endpoint_PojoJsonArray -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:39 IST" name="getResult" finished-at="2025-12-16T21:35:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postRequest_api_endpoint_PojoJsonArray status=SUCCESS method=All_ApisRequest.postRequest_api_endpoint_PojoJsonArray()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:39 IST" name="startTest" finished-at="2025-12-16T21:35:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apitesting_tests.All_ApisRequest.putRequest_api_endpoint()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="putRequest_api_endpoint()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:39 IST" name="putRequest_api_endpoint" description="PUT REQUEST API" finished-at="2025-12-16T21:35:39 IST" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putRequest_api_endpoint -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:39 IST" name="getResult" finished-at="2025-12-16T21:35:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=putRequest_api_endpoint status=SUCCESS method=All_ApisRequest.putRequest_api_endpoint()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:apitesting_tests.All_ApisRequest@6ee12bac]" started-at="2025-12-16T21:35:39 IST" name="endReport" finished-at="2025-12-16T21:35:39 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- apitesting_tests.All_ApisRequest -->
+    </test> <!-- Test Cases API -->
+  </suite> <!-- RestAssured_API_Testing Groups Test cases -->
+</testng-results>
